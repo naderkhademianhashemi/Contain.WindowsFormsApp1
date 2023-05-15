@@ -39,5 +39,12 @@ namespace Contain.WindowsFormsApp1
             var x = new char[] { 'k', 'f' }.Contains((null ?? "bf").ToLower()[1]);
             MessageBox.Show(r.ToString());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var f = new char[] { 'k', 'f' };
+            var r = f.Contains('f');
+            MessageBox.Show(r.ToString());
+        }
     }
 }
